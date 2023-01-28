@@ -16,7 +16,6 @@ def get_args():
         description='Rock the Casbah',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-
     parser.add_argument('-n',
                         '--name',
                         help='Name to greet',
@@ -33,8 +32,7 @@ def main():
 
     args = get_args()
     person = args.name
-    print (f'Hello, {person}!')
-
+    print(f'Hello, {person}!')
 
 
 # --------------------------------------------------
